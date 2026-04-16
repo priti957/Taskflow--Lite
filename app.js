@@ -1,6 +1,6 @@
-import { loadTasks, saveTasks } from 'storage.js';
-import { renderTaskList, updateStats } from 'render.js';
-import { validateTaskInput } from 'validation.js';
+import { loadTasks, saveTasks } from './storage.js';
+import { renderTaskList, updateStats } from './render.js';
+import { validateTaskInput } from './validation.js';
 
 let tasks = loadTasks();
 let currentFilter = 'all';
